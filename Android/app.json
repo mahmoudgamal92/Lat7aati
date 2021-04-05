@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "lathati",
+    "slug": "lathati",
+    "version": "2.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1D3D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "2",
+      "bundleIdentifier": "com.mahmoud2391997.lathati",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Lat7aati App requires access to your camera to let Capture Pictures to publish your Adds on Lat7aati ",
+        "NSPhotoLibraryUsageDescription": "Lat7aati needs to access your camera roll to enable you to choose Pictures for your items  ",
+        "NSPhotoLibraryAddUsageDescription": "Lat7aati needs to access your camera roll so that you can upload Pictures to insert your items",
+        "NSLocationWhenInUseUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSLocationAlwaysUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSLocationUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSCalendarsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSContactsUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMicrophoneUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSMotionUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us.",
+        "NSRemindersUsageDescription": "This permission is not needed by the app, but it is required by an underlying API. If you see this dialog, contact us."
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "versionCode": 3,
+      "package": "com.mahmoud2391997.lathati",
+      "permissions":[]
+    }
+  }
+}
